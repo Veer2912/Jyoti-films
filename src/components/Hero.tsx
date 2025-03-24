@@ -67,25 +67,24 @@ const Hero = () => {
         >
           <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
             <div>
-              <h1 className="hero-text mb-8">
+              <h1 className="hero-text mb-4">
                 Premier wedding <br className="hidden sm:block" /> 
                 photography studio <br className="hidden sm:block" />
-                based in London
               </h1>
-              <p className="text-lg md:text-xl max-w-2xl text-gray-600 mb-12">
+              <p className="text-lg md:text-xl max-w-2xl text-gray-600 mb-4">
                 We capture your special moments with artistic flair and attention to detail, 
                 creating timeless memories that will last a lifetime.
               </p>
               <div className="flex space-x-6">
                 <a 
                   href="#work" 
-                  className="px-8 py-4 bg-black text-white rounded-full transition-all hover:bg-black/90"
+                  className="px-8 py-2 bg-black text-white rounded-full transition-all hover:bg-black/90"
                 >
                   Our Services
                 </a>
                 <a 
                   href="#contact"
-                  className="px-8 py-4 border border-gray-200 rounded-full transition-all hover:border-gray-400"
+                  className="px-8 py-2 border border-gray-200 rounded-full transition-all hover:border-gray-400"
                 >
                   Get in Touch
                 </a>
@@ -93,22 +92,22 @@ const Hero = () => {
             </div>
             
             {/* Gallery Preview */}
-            <div className="relative rounded-xl overflow-hidden shadow-xl">
+            <div  className="relative rounded-xl overflow-hidden shadow-xl">
               <img 
                 src={galleryImages[0].url}
                 alt={galleryImages[0].alt}
                 className="w-full h-80 object-cover"
               />
-              <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
-                <span className="text-white font-medium px-6 py-2 bg-black/60 rounded-full">
+              <div className="absolute inset-0 bg-black/20 flex items-center justify-center" >
+                <a href='#carousel' className="text-white font-medium px-6 py-2 bg-black/60 rounded-full" >
                   View Our Gallery
-                </span>
+                </a>
               </div>
             </div>
           </div>
           
           {/* Photo Carousel */}
-          <div className="mt-12 mb-8">
+          <div id='carousel' className="mt-12 mb-8">
             <h2 className="text-xl md:text-2xl font-medium mb-8 text-center">Our Latest Photography Work</h2>
             <Carousel
               opts={{
