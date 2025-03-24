@@ -36,20 +36,20 @@ const Hero = () => {
           className="opacity-0 translate-y-10 transition-all duration-1000 ease-out"
         >
           <h1 className="hero-text mb-8">
-            Independent <br className="hidden sm:block" /> 
-            design studio <br className="hidden sm:block" />
+            Premier wedding <br className="hidden sm:block" /> 
+            photography studio <br className="hidden sm:block" />
             based in London
           </h1>
           <p className="text-lg md:text-xl max-w-2xl text-gray-600 mb-12">
-            We create minimalist, functional digital experiences for clients who appreciate 
-            the value of simplicity and thoughtful design.
+            We capture your special moments with artistic flair and attention to detail, 
+            creating timeless memories that will last a lifetime.
           </p>
           <div className="flex space-x-6">
             <a 
               href="#work" 
               className="px-8 py-4 bg-black text-white rounded-full transition-all hover:bg-black/90"
             >
-              View Work
+              Our Services
             </a>
             <a 
               href="#contact"

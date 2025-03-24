@@ -27,18 +27,18 @@ const Navbar = () => {
     >
       <div className="max-container flex items-center justify-between">
         <Link to="/" className="text-xl font-medium">
-          Taj.
+          Taj Photography.
         </Link>
         
         <nav className="hidden md:flex space-x-8">
           <Link to="/#work" className="link-underline">
-            Work
+            Services
           </Link>
           <Link to="/#about" className="link-underline">
             About
           </Link>
-          <Link to="/#services" className="link-underline">
-            Services
+          <Link to="/#portfolio" className="link-underline">
+            Portfolio
           </Link>
           <Link to="/#contact" className="link-underline">
             Contact
