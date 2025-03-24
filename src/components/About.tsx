@@ -1,5 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
+import { Image, Camera, GalleryHorizontal, GalleryVertical } from 'lucide-react';
 
 const About = () => {
   const aboutRef = useRef<HTMLDivElement>(null);
@@ -39,35 +40,48 @@ const About = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div>
-              <h3 className="text-xl font-medium mb-6">Our Approach</h3>
+              <h3 className="text-xl font-medium mb-6">Our Philosophy</h3>
               <p className="text-gray-600 mb-8 leading-relaxed">
-                We believe in the power of simplicity and clarity in design. Our approach focuses on creating digital experiences 
-                that feel intuitive and effortless, while maintaining a strong aesthetic presence.
+                We believe that every wedding tells a unique story, and our mission is to capture those special 
+                moments that you'll cherish forever. With an eye for detail and passion for storytelling, 
+                we create timeless photographs that reflect the beauty and emotion of your special day.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Every project begins with deep research and understanding of your brand, audience, and objectives. 
-                We then craft solutions that align with your vision and elevate your digital presence.
+                Our approach combines candid photojournalism with elegant portraiture, ensuring we document 
+                both the grand moments and the intimate details that make your wedding uniquely yours.
               </p>
             </div>
             
             <div>
               <h3 className="text-xl font-medium mb-6">Our Services</h3>
               <ul className="space-y-4">
-                <li className="pb-4 border-b border-gray-200">
-                  <h4 className="font-medium">UI/UX Design</h4>
-                  <p className="text-gray-600">Intuitive interfaces and engaging user experiences</p>
+                <li className="pb-4 border-b border-gray-200 flex items-center gap-3">
+                  <Camera className="w-5 h-5 text-gray-700" />
+                  <div>
+                    <h4 className="font-medium">Wedding Photography</h4>
+                    <p className="text-gray-600">Comprehensive coverage of your entire wedding day</p>
+                  </div>
                 </li>
-                <li className="pb-4 border-b border-gray-200">
-                  <h4 className="font-medium">Web Development</h4>
-                  <p className="text-gray-600">Responsive, accessible, and performant websites</p>
+                <li className="pb-4 border-b border-gray-200 flex items-center gap-3">
+                  <Image className="w-5 h-5 text-gray-700" />
+                  <div>
+                    <h4 className="font-medium">Pre-Wedding Shoots</h4>
+                    <p className="text-gray-600">Romantic engagement and pre-wedding sessions</p>
+                  </div>
                 </li>
-                <li className="pb-4 border-b border-gray-200">
-                  <h4 className="font-medium">Brand Identity</h4>
-                  <p className="text-gray-600">Cohesive visual systems that communicate your values</p>
+                <li className="pb-4 border-b border-gray-200 flex items-center gap-3">
+                  <GalleryHorizontal className="w-5 h-5 text-gray-700" />
+                  <div>
+                    <h4 className="font-medium">Premium Photo Albums</h4>
+                    <p className="text-gray-600">Handcrafted albums to preserve your memories</p>
+                  </div>
                 </li>
-                <li>
-                  <h4 className="font-medium">Digital Strategy</h4>
-                  <p className="text-gray-600">Strategic direction for your digital transformation</p>
+                <li className="flex items-center gap-3">
+                  <GalleryVertical className="w-5 h-5 text-gray-700" />
+                  <div>
+                    <h4 className="font-medium">Digital Collections</h4>
+                    <p className="text-gray-600">High-resolution digital images with printing rights</p>
+                  </div>
                 </li>
               </ul>
             </div>
