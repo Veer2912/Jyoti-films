@@ -1,6 +1,8 @@
 
 import React, { useEffect, useRef } from 'react';
 import { Image, Camera, GalleryHorizontal, GalleryVertical } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
+import { Card, CardContent } from '@/components/ui/card';
 
 const About = () => {
   const aboutRef = useRef<HTMLDivElement>(null);
@@ -38,7 +40,7 @@ const About = () => {
         >
           <h2 className="section-title mb-16">About Us</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-20">
             <div>
               <h3 className="text-xl font-medium mb-6">Our Philosophy</h3>
               <p className="text-gray-600 mb-8 leading-relaxed">
@@ -84,6 +86,47 @@ const About = () => {
                   </div>
                 </li>
               </ul>
+            </div>
+          </div>
+          
+          <div className="mt-16">
+            <h3 className="text-2xl font-medium mb-10 text-center">Meet Our Founders</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <Card className="overflow-hidden transition-all hover:shadow-lg">
+                <div className="relative h-64 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952" 
+                    alt="Michael Anderson" 
+                    className="w-full h-full object-cover object-center transition-transform hover:scale-105"
+                  />
+                </div>
+                <CardContent className="p-6 text-center">
+                  <h4 className="text-xl font-medium mb-2">Michael Anderson</h4>
+                  <p className="text-gray-600">Lead Photographer & Creative Director</p>
+                  <p className="mt-4 text-gray-600 text-sm">
+                    With over 15 years of experience capturing life's most precious moments, 
+                    Michael brings an artistic vision and technical expertise to every wedding.
+                  </p>
+                </CardContent>
+              </Card>
+              
+              <Card className="overflow-hidden transition-all hover:shadow-lg">
+                <div className="relative h-64 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9" 
+                    alt="Emily Richardson" 
+                    className="w-full h-full object-cover object-center transition-transform hover:scale-105"
+                  />
+                </div>
+                <CardContent className="p-6 text-center">
+                  <h4 className="text-xl font-medium mb-2">Emily Richardson</h4>
+                  <p className="text-gray-600">Photography Director & Production Lead</p>
+                  <p className="mt-4 text-gray-600 text-sm">
+                    Emily's eye for detail and ability to capture authentic emotions 
+                    has made her a favorite among couples seeking timeless wedding photography.
+                  </p>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>
