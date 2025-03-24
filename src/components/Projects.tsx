@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import { Camera, Image, Video, Film, Drone } from 'lucide-react';
+import { Camera, Image, Video, Film, PlaneTakeoff } from 'lucide-react';
 
 interface Project {
   id: number;
@@ -56,7 +56,7 @@ const projectsData: Project[] = [
     description: "Breathtaking aerial shots and videos of your venue and ceremony for a unique perspective.",
     image: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     link: "#",
-    icon: <Drone className="w-5 h-5" />
+    icon: <PlaneTakeoff className="w-5 h-5" />
   }
 ];
 
