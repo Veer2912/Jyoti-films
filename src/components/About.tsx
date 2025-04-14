@@ -89,41 +89,40 @@ const About = () => {
             </div>
           </div>
           
-          <div className="mt-16">
+          <div className="mt-16 mx-32">
             <h3 className="text-2xl font-medium mb-10 text-center">Meet Our Founders</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <Card className="overflow-hidden transition-all hover:shadow-lg">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-72">
+              <Card className="overflow-hidden transition-all w-[300px] hover:shadow-lg">
                 <div className="relative h-64 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952" 
-                    alt="Michael Anderson" 
-                    className="w-full h-full object-cover object-center transition-transform hover:scale-105"
+                    src="/images/jy6.jpg" 
+                    alt="Mohit Sharma" 
+                    className="w-[300px] h-[400px] object-cover object-center transition-transform hover:scale-105"
                   />
                 </div>
                 <CardContent className="p-6 text-center">
-                  <h4 className="text-xl font-medium mb-2">Michael Anderson</h4>
-                  <p className="text-gray-600">Lead Photographer & Creative Director</p>
+                  <h4 className="text-xl font-medium mb-2">Mohit Bhardwaj</h4>
+                  <p className="text-gray-600">Lead Photographer & Co-founder</p>
                   <p className="mt-4 text-gray-600 text-sm">
                     With over 15 years of experience capturing life's most precious moments, 
-                    Michael brings an artistic vision and technical expertise to every wedding.
+                    Mohit brings an artistic vision and technical expertise to every wedding.
                   </p>
                 </CardContent>
               </Card>
               
-              <Card className="overflow-hidden transition-all hover:shadow-lg">
+              <Card className="overflow-hidden transition-all w-[300px] hover:shadow-lg">
                 <div className="relative h-64 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9" 
-                    alt="Emily Richardson" 
-                    className="w-full h-full object-cover object-center transition-transform hover:scale-105"
+                    src="/images/owner phtot3.jpg" 
+                    alt="S.N. Sharma" 
+                    className="w-[300px] h-[300px] object-fit object-center transition-transform hover:scale-105"
                   />
                 </div>
                 <CardContent className="p-6 text-center">
-                  <h4 className="text-xl font-medium mb-2">Emily Richardson</h4>
-                  <p className="text-gray-600">Photography Director & Production Lead</p>
+                  <h4 className="text-xl font-medium mb-2">S.N. Sharma</h4>
+                  <p className="text-gray-600">Founder</p>
                   <p className="mt-4 text-gray-600 text-sm">
-                    Emily's eye for detail and ability to capture authentic emotions 
-                    has made her a favorite among couples seeking timeless wedding photography.
+                    S.N. Sharma has founded this prestigious studio that has been capturing moments and crafting stories for couples.
                   </p>
                 </CardContent>
               </Card>

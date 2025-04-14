@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import { Camera, Image, Video, Film, PlaneTakeoff } from 'lucide-react';
+import { Camera, Image, Video, Film, PlaneTakeoff , BriefcaseBusiness} from 'lucide-react';
 
 interface Project {
   id: number;
@@ -57,6 +57,15 @@ const projectsData: Project[] = [
     image: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     link: "#",
     icon: <PlaneTakeoff className="w-5 h-5" />
+  },
+  {
+    id: 6,
+    title: "Corporate Photography",
+    category: "Corporate Photography",
+    description: "We work with a number of corporate organisations and capture their precious and prestigious moments.",
+    image: "/images/stylish-business-team.jpg",
+    link: "#",
+    icon: <BriefcaseBusiness className="w-5 h-5" />
   }
 ];
 

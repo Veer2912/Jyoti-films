@@ -11,24 +11,64 @@ const galleryImages = [
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1494774157365-9e04c6720e47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    alt: "Couple shoot in scenic location"
+    url: "/images/02.jpg",
+    alt: "Wedding Photograph"
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80", 
-    alt: "Wedding celebration moment"
+    url: "/images/06.jpg", 
+    alt: "Wedding Photograph"
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    alt: "Aerial view of wedding venue"
+    url: "/images/07.jpg",
+    alt: "Wedding Photograph"
   },
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1626379953822-baec19c3accd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80",
-    alt: "Wedding reception setup"
-  }
+    url: "/images/11.jpg",
+    alt: "Wedding Photograph"
+  },
+  {
+    id: 6,
+    url: "/images/12.jpg",
+    alt: "Wedding Photograph"
+  },
+  {
+    id: 7,
+    url: "/images/13.jpg",
+    alt: "Wedding Photograph"
+  },
+  {
+    id: 8,
+    url: "/images/15.jpg",
+    alt: "Wedding Photograph"
+  },
+  {
+    id: 9,
+    url: "/images/16.jpg",
+    alt: "Wedding Photograph"
+  },
+  {
+    id: 10,
+    url: "/images/DSC_5712.JPG",
+    alt: "Wedding Photograph"
+  },
+  {
+    id: 11,
+    url: "/images/image-1.jpg",
+    alt: "Wedding Photograph"
+  },
+  {
+    id: 12,
+    url: "/images/jy666.webp",
+    alt: "Wedding Photograph"
+  },
+  {
+    id: 13,
+    url: "/images/01.jpg",
+    alt: "Wedding Photograph"
+  },
 ];
 
 const Hero = () => {
@@ -68,8 +108,8 @@ const Hero = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
             <div>
               <h1 className="hero-text mb-4">
-                Premier wedding <br className="hidden sm:block" /> 
-                photography studio <br className="hidden sm:block" />
+                Premier Wedding <br className="hidden sm:block" /> 
+                Photography Studio <br className="hidden sm:block" />
               </h1>
               <p className="text-lg md:text-xl max-w-2xl text-gray-600 mb-4">
                 We capture your special moments with artistic flair and attention to detail, 
@@ -121,7 +161,7 @@ const Hero = () => {
                   <CarouselItem key={image.id} className="md:basis-1/2 lg:basis-1/3">
                     <div className="p-1">
                       <Card>
-                        <CardContent className="flex aspect-[4/3] items-center justify-center p-0 overflow-hidden">
+                        <CardContent className="flex aspect-[4/5] items-center justify-center p-0 overflow-hidden">
                           <img 
                             src={image.url} 
                             alt={image.alt}

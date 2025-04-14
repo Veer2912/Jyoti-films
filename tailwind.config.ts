@@ -26,7 +26,14 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ["Inter", "SF Pro Display", "system-ui", "sans-serif"],
+				sans: ['Roboto', 'ui-sans-serif', 'system-ui'],
+        		poppins: ['Poppins', 'sans-serif'],
+				playfair: ['Playfair Display', 'serif'],
+				montserrat: ['Montserrat', 'sans-serif'],
+				raleway: ['Raleway', 'sans-serif'],
+				lora: ['Lora', 'serif'],
+				josefin: ['Josefin Sans', 'sans-serif'],
+				dancing: ['Dancing Script', 'cursive'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

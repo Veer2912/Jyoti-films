@@ -26,23 +26,22 @@ const Navbar = () => {
       }`}
     >
       <div className="max-container flex items-center justify-between">
-        <Link to="/" className="text-xl font-medium">
-          Taj Photography.
+        <Link to="/" className="text-xl font-medium grid grid-cols-2">
+          <img src="/LOGO JF03.png" alt="Jyoti Films Logo" className='w-[60px] h-[60px]' />
+          <a href="/" className='text-[38px] font-playfair mt-5 ml-[-1.2em]'>Jyoti Films</a>
         </Link>
         
         <nav className="hidden md:flex space-x-8">
-          <Link to="/#work" className="link-underline">
+          <a href="#work" className="link-underline">
             Services
-          </Link>
-          <Link to="/#about" className="link-underline">
+          </a>
+          <a href="#about" className="link-underline">
             About
-          </Link>
-          <Link to="/#portfolio" className="link-underline">
-            Portfolio
-          </Link>
-          <Link to="/#contact" className="link-underline">
+          </a>
+          
+          <a href="#contact" className="link-underline">
             Contact
-          </Link>
+          </a>
         </nav>
         
         <button className="md:hidden">
