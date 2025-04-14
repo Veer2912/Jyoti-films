@@ -136,5 +136,3 @@ const About = () => {
 
 export default About;
 
-
-https://github.com/Veer2912/Jyoti_FIlmes_Rebuilt.git
