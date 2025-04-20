@@ -59,16 +59,12 @@ const galleryImages = [
     url: "/images/image-1.jpg",
     alt: "Wedding Photograph"
   },
+  
   {
     id: 12,
-    url: "/images/jy666.webp",
-    alt: "Wedding Photograph"
-  },
-  {
-    id: 13,
     url: "/images/01.jpg",
     alt: "Wedding Photograph"
-  },
+  }
 ];
 
 const Hero = () => {
