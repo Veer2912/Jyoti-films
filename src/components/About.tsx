@@ -89,15 +89,16 @@ const About = () => {
             </div>
           </div>
           
-          <div className="mt-16 mx-32">
+          <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
             <h3 className="text-2xl font-medium mb-10 text-center">Meet Our Founders</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-72">
-              <Card className="overflow-hidden transition-all w-[300px] hover:shadow-lg">
-                <div className="relative h-64 overflow-hidden">
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16 justify-items-center">
+              <Card className="overflow-hidden transition-all w-full max-w-sm hover:shadow-lg">
+                <div className="relative h-80 overflow-hidden">
                   <img 
                     src="/images/jy6.jpg" 
                     alt="Mohit Sharma" 
-                    className="w-[300px] h-[400px] object-cover object-center transition-transform hover:scale-105"
+                    className="w-full h-full object-cover object-center transition-transform hover:scale-105"
                   />
                 </div>
                 <CardContent className="p-6 text-center">
@@ -110,12 +111,12 @@ const About = () => {
                 </CardContent>
               </Card>
               
-              <Card className="overflow-hidden transition-all w-[300px] hover:shadow-lg">
-                <div className="relative h-64 overflow-hidden">
+              <Card className="overflow-hidden transition-all w-full max-w-sm hover:shadow-lg">
+                <div className="relative h-80 overflow-hidden">
                   <img 
                     src="/images/owner phtot3.jpg" 
                     alt="S.N. Sharma" 
-                    className="w-[300px] h-[300px] object-fit object-center transition-transform hover:scale-105"
+                    className="w-full h-[390px] object-cover object-center transition-transform hover:scale-105"
                   />
                 </div>
                 <CardContent className="p-6 text-center">
