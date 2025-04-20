@@ -23,24 +23,19 @@ const Footer = () => {
             <h3 className="font-medium mb-4">Site Map</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/#work" className="text-gray-600 hover:text-black transition-colors">
-                  Work
-                </Link>
-              </li>
-              <li>
-                <Link to="/#about" className="text-gray-600 hover:text-black transition-colors">
+                <a href="#about" className="text-gray-600 hover:text-black transition-colors">
                   About
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/#services" className="text-gray-600 hover:text-black transition-colors">
+                <a href="#work" className="text-gray-600 hover:text-black transition-colors">
                   Services
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/#contact" className="text-gray-600 hover:text-black transition-colors">
+                <a href="#contact" className="text-gray-600 hover:text-black transition-colors">
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
